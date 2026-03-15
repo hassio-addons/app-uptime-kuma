@@ -24,7 +24,7 @@ RUN \
     && apk add --no-cache \
         iputils=20250605-r0 \
         nodejs=24.13.0-r1 \
-        npm=11.6.3-r0 \
+        npm=11.11.0-r0 \
         python3=3.12.12-r0 \
         setpriv=2.41.2-r0 \
     \
