@@ -13,7 +13,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base
 ARG UPTIME_KUMA_VERSION="2.3.2"
-ARG CLOUDFLARED_VERSION="2026.3.0"
+ARG CLOUDFLARED_VERSION="2026.5.0"
 ARG BUILD_ARCH=amd64
 # hadolint ignore=DL3003,DL3042
 RUN \
