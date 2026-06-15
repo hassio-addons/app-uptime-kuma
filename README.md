@@ -4,29 +4,23 @@
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
 [![Support Frenck on Patreon][patreon-shield]][patreon]
 
-It is a self-hosted monitoring tool like "Uptime Robot".
+Uptime Kuma is a self-hosted monitoring tool, comparable to "Uptime Robot".
 
 ## About
 
-Uptime Kuma is an open source monitor tools, which can be best
+Uptime Kuma is an open source monitoring tool, which can be best
 compared to a self-hosted variant of a commercial service like "Uptime Robot".
 
 It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols
-and it can send you notifications of downtime or trigger an Home Assistant
+and it can send you notifications of downtime or trigger a Home Assistant
 automation webhook.
 
 [:books: Read the full app documentation][docs]
@@ -44,7 +38,7 @@ You have several options to get them answered:
 - The Home Assistant [Community Forum][forum].
 - Join the [Reddit subreddit][reddit] in [/r/homeassistant][reddit]
 
-You could also [open an issue here][issue] GitHub.
+You could also [open an issue here][issue] on GitHub.
 
 ## Contributing
 
@@ -94,16 +88,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/app-uptime-kuma.svg
 [commits]: https://github.com/hassio-addons/app-uptime-kuma/commits/main
 [contributors]: https://github.com/hassio-addons/app-uptime-kuma/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
-[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [docs]: https://github.com/hassio-addons/app-uptime-kuma/blob/main/uptime-kuma/DOCS.md
-[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/?u=frenck
 [frenck]: https://github.com/frenck
 [github-actions-shield]: https://github.com/hassio-addons/app-uptime-kuma/workflows/CI/badge.svg

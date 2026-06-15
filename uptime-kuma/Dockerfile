@@ -54,7 +54,7 @@ RUN \
     && apk del --no-cache --purge .build-dependencies \
     && rm -fr \
         /tmp/* \
-        /root/.cache \ 
+        /root/.cache \
         /root/.npm \
         /root/.npmrc
 
