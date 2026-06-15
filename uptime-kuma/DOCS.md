@@ -1,6 +1,6 @@
 # Home Assistant Community App: Uptime Kuma
 
-Uptime Kuma is an open source monitoring tool, which can be best
+Uptime Kuma is an open-source monitoring tool, which is best
 compared to a self-hosted variant of a commercial service like "Uptime Robot".
 
 It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols

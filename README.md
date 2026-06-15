@@ -16,7 +16,7 @@ Uptime Kuma is a self-hosted monitoring tool, comparable to "Uptime Robot".
 
 ## About
 
-Uptime Kuma is an open source monitoring tool, which can be best
+Uptime Kuma is an open-source monitoring tool, which is best
 compared to a self-hosted variant of a commercial service like "Uptime Robot".
 
 It enables you to monitor services over HTTP/S, TCP, DNS, and other protocols
@@ -103,7 +103,6 @@ SOFTWARE.
 [issue]: https://github.com/hassio-addons/app-uptime-kuma/issues
 [license-shield]: https://img.shields.io/github/license/hassio-addons/app-uptime-kuma.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
-[nodered-docs]: https://nodered.org/docs
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
