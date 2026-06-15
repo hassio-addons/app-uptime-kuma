@@ -9,10 +9,7 @@
   "customManagers": [
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "//Dockerfile$/",
-        "//build.yaml$/"
-      ],
+      "managerFilePatterns": ["//Dockerfile$/", "//build.yaml$/"],
       "matchStringsStrategy": "any",
       "matchStrings": [
         "ARG BUILD_FROM=(?<depName>.*?):(?<currentValue>.*?)\\s+",
@@ -22,22 +19,18 @@
     },
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "//Dockerfile$/"
-      ],
+      "managerFilePatterns": ["//Dockerfile$/"],
       "matchStringsStrategy": "any",
       "matchStrings": [
         "\\s\\s(?<package>[a-z0-9][a-z0-9-]+)=(?<currentValue>[a-z0-9-_.]+)\\s+"
       ],
       "versioningTemplate": "loose",
       "datasourceTemplate": "repology",
-      "depNameTemplate": "alpine_3_23/{{package}}"
+      "depNameTemplate": "alpine_3_24/{{package}}"
     },
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "//Dockerfile$/"
-      ],
+      "managerFilePatterns": ["//Dockerfile$/"],
       "matchStrings": [
         "ARG UPTIME_KUMA_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
       ],
@@ -46,9 +39,7 @@
     },
     {
       "customType": "regex",
-      "managerFilePatterns": [
-        "//Dockerfile$/"
-      ],
+      "managerFilePatterns": ["//Dockerfile$/"],
       "matchStrings": [
         "ARG CLOUDFLARED_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
       ],
@@ -60,7 +51,7 @@
   "packageRules": [
     {
       "matchDatasources": ["repology"],
-      "matchPackageNames": ["alpine_3_23/*"],
+      "matchPackageNames": ["alpine_3_24/*"],
       "versioning": "loose"
     },
     {
