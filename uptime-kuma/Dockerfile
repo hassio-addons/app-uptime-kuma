@@ -25,7 +25,7 @@ RUN \
         iputils=20250605-r2 \
         nodejs=24.18.1-r0 \
         npm=11.12.1-r0 \
-        python3=3.14.7-r0 \
+        python3=3.14.7-r1 \
         setpriv=2.42.1-r0 \
     \
     && mkdir -p /opt/uptime-kuma \
