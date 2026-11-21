@@ -19,7 +19,7 @@ ARG BUILD_ARCH=amd64
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         build-base=0.5-r4 \
-        py3-pip=26.1.2-r0 \
+        py3-pip=26.1.2-r1 \
     \
     && apk add --no-cache \
         iputils=20250605-r2 \
